@@ -1,0 +1,372 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.carousel-control-next, .carousel-control-prev {
+  display: none!important;
+}
+
+
+.logoAll {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoName {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.telAll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.telIcon {
+  color: #0bbbef;
+  font-size: 24px;
+}
+
+.tabInside {
+  margin-top: 8px;
+}
+
+.tabInsideImage {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.formContact {
+  background: red;
+  width: 550px;
+}
+
+.deliveryBtn {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  color: #fff;
+  border-radius: 8px;
+}
+.deliveryBtn:hover {
+  color: #0bbbef;
+}
+
+.deliveryBtnZayavka {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 16px 32px;
+  color: #fff;
+  background: #dd923c;
+  border-radius: 8px;
+}
+
+.deliveryBtnZayavka:hover {
+  color: white;
+  background: #fd8400;
+}
+
+
+.allIntro {
+  position: relative;
+}
+
+.introImage {
+  width: 100%;
+}
+
+.introInfo {
+  right: 36px;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: right;
+}
+
+
+
+.introHeading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.introLines {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+
+.introHeadingFirm {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.introLine {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.introIcon {
+  font-size: 24px;
+  color: #443cdd;
+}
+
+.zayavkaForm {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(106,163,235,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.zayavkaText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zayavkaHeading {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.zayavkaTextin {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.benefitsAll {
+  display: flex;
+  justify-content: center;
+  padding: 0 24px;
+  gap: 24px;
+}
+
+
+
+.benefitItem {
+  max-width: 360px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+  border-radius: 8px;
+}
+
+.benefitIcon {
+  color: #0bbbef;
+  font-size: 48px;
+  padding: 16px 0;
+}
+
+.aboutAll {
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.aboutLeft {
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 50%;
+}
+
+.aboutRight {
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 50%;
+}
+
+.aboutImg {
+  max-width: 480px;
+  min-width: 320px;
+}
+
+.aboutDesc {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px;
+  gap: 16px;
+}
+
+.botContacts {
+  background: linear-gradient(0deg, rgba(106,163,235,1) 0%, rgba(255,255,255,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contactIcons {
+  display: flex;
+  gap: 16px;
+}
+
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.contactTextHigh {
+  font-size: 24px;
+}
+
+.contactIcon {
+  cursor: pointer;
+  font-size: 36px;
+}
+
+.contactIcon:hover {
+  color: #443cdd;
+}
+
+.myFooter {
+  text-align: center;
+  background: #212529;
+  color: #fff;
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .introInfo {
+    right: 24px;
+    top: 12px;
+
+  }
+
+  .introHeading {
+    font-size: 28px;
+  }
+
+  .introHeadingFirm {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+
+  .introLine {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+  .introIcon {
+    font-size: 16px;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .introInfo {
+    right: 24px;
+    top: 12px;
+
+  }
+
+  .introHeading {
+    font-size: 24px;
+  }
+
+  .introHeadingFirm {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+  .introLine {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .introIcon {
+    font-size: 16px;
+  }
+
+
+
+}
+
+@media (max-width: 767px) {
+
+  .introInfo {
+    right: 16px;
+    top: 8px;
+
+  }
+
+  .introHeading {
+    font-size: 16px;
+  }
+
+  .introHeadingFirm {
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+
+  .introLine {
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+
+  .introIcon {
+    font-size: 12px;
+  }
+
+
+  .zayavkaTextin {
+    text-align: center;
+  }
+
+  /*.introInfo {*/
+  /*  display: none;*/
+  /*}*/
+
+  .aboutAll {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .aboutLeft {
+    min-width: 320px;
+  }
+
+  .aboutRight {
+    min-width: 320px;
+  }
+
+  .benefitsAll {
+    flex-direction: column;
+
+  }
+
+}
